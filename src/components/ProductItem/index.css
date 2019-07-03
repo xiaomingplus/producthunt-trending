@@ -1,0 +1,42 @@
+.item {
+    padding-bottom: 20px;
+}
+.item-container{
+    
+}
+.body {
+    display: flex;
+}
+.footer {
+    padding-top: 10px;  
+    color: #999;
+}
+
+.main {
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+.main-text {
+    padding-left:20px;
+    flex:1;
+}
+.side{
+    padding-left:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vote{
+    min-width: 50px;
+    padding:10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.1)
+}
+.img {
+    width:80px;
+    height:80px;
+}
