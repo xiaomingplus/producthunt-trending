@@ -122,7 +122,7 @@ class App extends React.Component {
               </IconButton>
               <Typography variant="h6" className={classes.title}>
                 <Link
-                    href="/"
+                    onClick={this.handleReload}
                     color="inherit"
                     underline="none"
                   >
@@ -189,7 +189,7 @@ class App extends React.Component {
                     color={
                       this.state.range !== "daily" ? "primary" : "textSecondary"
                     }
-                    href="/?range=daily"
+                    href="?range=daily"
                   >
                     Daily
                   </Link>
@@ -202,7 +202,7 @@ class App extends React.Component {
                         ? "primary"
                         : "textSecondary"
                     }
-                    href="/?range=weekly"
+                    href="?range=weekly"
                   >
                     Weekly
                   </Link>
@@ -215,7 +215,7 @@ class App extends React.Component {
                         ? "primary"
                         : "textSecondary"
                     }
-                    href="/?range=monthly"
+                    href="?range=monthly"
                   >
                     Monthly
                   </Link>
@@ -228,7 +228,7 @@ class App extends React.Component {
                         ? "primary"
                         : "textSecondary"
                     }
-                    href="/?range=yearly"
+                    href="?range=yearly"
                   >
                     Yearly
                   </Link>
@@ -266,9 +266,12 @@ class App extends React.Component {
           margin="normal"
           type="password"
           placeholder="Input your producthunt developer token"
+          FormHelperTextProps={{
+            component:'div'
+          }}
           helperText={
             <div>
-              Input your producthunt developer token. You can find it at{" "}
+              Input your producthunt developer token. You can find it at
               <Link
                 style={{marginLeft:2}}
                 target="_blank"
