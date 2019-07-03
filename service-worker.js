@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/producthunt-trending/precache-manifest.31e4880bb79ecd4fa4a728e7b1b38318.js"
+  "/producthunt-trending/precache-manifest.6d1597abe39cb4843b445719a2d43ef2.js"
 );
 
 self.addEventListener('message', (event) => {
