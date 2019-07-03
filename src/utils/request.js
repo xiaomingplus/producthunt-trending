@@ -60,5 +60,5 @@ export function getProducts(params) {
     }
   }`;
 
-  return client.request(query);
+  return client.rawRequest(query);
 }

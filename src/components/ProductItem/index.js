@@ -19,7 +19,6 @@ export default class ProductItem extends React.Component {
       <div className="item">
         <Card
           style={{ padding: 20 }}
-          onClick={this.handleUrl.bind(this, website)}
         >
           <div className="item-container">
             <div className="body">
@@ -28,11 +27,10 @@ export default class ProductItem extends React.Component {
                 <div className="main-text">
                   <Typography variant="h5" display="block" gutterBottom>
                     <Link
-                      onClick={this.handlePrevent}
                       color={"primary"}
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={url}
+                      href={website}
                     >
                       {name}
                     </Link>
@@ -47,14 +45,24 @@ export default class ProductItem extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="footer">Created at {moment(createdAt).format('YYYY/MM/DD HH:mm')}</div>
+            <div className="footer">
+              <Link
+                color={"textSecondary"}
+                target="_blank"
+                rel="noopener noreferrer"
+                href={url}
+              >
+                Created at {moment(createdAt).format("YYYY/MM/DD HH:mm")}
+              </Link>
+            </div>
           </div>
         </Card>
       </div>
     );
   }
-  handlePrevent = e => {
+  handlePrevent = (url,e )=> {
     e.preventDefault();
+    this.handleUrl(url)
   };
   handleUrl = url => {
     window.open(

@@ -125,6 +125,7 @@ class App extends React.Component {
                     onClick={this.handleReload}
                     color="inherit"
                     underline="none"
+                    style={{cursor: "pointer"}}
                   >
                   ProductHunt Trending
                   </Link>
@@ -247,7 +248,7 @@ class App extends React.Component {
               ? this.renderLoading()
               : this.renderList()}
           </Container>
-          <footer className="center">
+          <footer style={{paddingBottom:20,paddingTop:20}} className="center">
                 Thanks
                 <Link style={{marginLeft:4}} href="https://www.producthunt.com/" target="_blank" rel="noopener noreferrer"> ProductHunt</Link>
           </footer>
@@ -378,7 +379,8 @@ class App extends React.Component {
       params.after = parsed.after;
     }
     getProducts(params)
-      .then(data => {
+      .then(result => {
+          const {data} = result;
         this.setState({
           isLoading: false
         });
@@ -409,11 +411,19 @@ class App extends React.Component {
         }
       })
       .catch(e => {
-        this.setState({
-          isLoading: false,
-          error: e.message
-        });
-        console.error("error", e);
+        if(e && e.response && e.response.status===429){
+            this.setState({
+                isLoading: false,
+                error: 'Sorry. You have exceeded the API rate limit.You can change the developer token by tap the "change token" icon (at top right icon) or try again after 15 minitus.'
+            });
+            this.handleToggleToken()
+        }else{
+            this.setState({
+                isLoading: false,
+                error: e.message
+            });
+        }
+       
       });
   };
   handleGithub = () => {
