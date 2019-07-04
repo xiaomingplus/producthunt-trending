@@ -234,6 +234,16 @@ class App extends React.Component {
                     Yearly
                   </Link>
                 </Typography>
+                <DividerOblique />
+                <Typography variant="subtitle1" display="block" gutterBottom>
+                  <Link
+                    color="primary"
+                    target="_blank" rel="noopener noreferrer"
+                    href="https://www.producthunt.com/time-travel"
+                  >
+                  Time Travel
+                  </Link>
+                </Typography>
               </div>
             </FormGroup>
             <div
