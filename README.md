@@ -2,6 +2,8 @@
 
 In productHunt trending,you can view products ordered by vote count with specific date range.
 
+![vote](https://img.shields.io/badge/dynamic/json.svg?label=Upvotes&query=%24.votes&url=https%3A%2F%2Fapi.phkit.me%2Fvotes%2F160312&logo=product-hunt&&logoColor=fff&color=DA552E&)
+
 Visit online: <https://xiaomingplus.github.io/producthunt-trending/>
 
 ![screen](assets/screen.png)
