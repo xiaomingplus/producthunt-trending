@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5815babe5b917a86cf0cf811acd634d4",
+    "revision": "945a1f02052311937e3109d0461f4e68",
     "url": "/producthunt-trending/index.html"
   },
   {
-    "revision": "7da001b89df251f68d2a",
+    "revision": "0c64d0908f8230ec00e9",
     "url": "/producthunt-trending/static/css/2.5d832d7a.chunk.css"
   },
   {
-    "revision": "ad1a24a18e0e34678163",
+    "revision": "65acec2034f0750f9198",
     "url": "/producthunt-trending/static/css/main.0848d298.chunk.css"
   },
   {
-    "revision": "7da001b89df251f68d2a",
-    "url": "/producthunt-trending/static/js/2.8f1a1e8c.chunk.js"
+    "revision": "0c64d0908f8230ec00e9",
+    "url": "/producthunt-trending/static/js/2.2201aba3.chunk.js"
   },
   {
-    "revision": "ad1a24a18e0e34678163",
-    "url": "/producthunt-trending/static/js/main.dd1ab399.chunk.js"
+    "revision": "65acec2034f0750f9198",
+    "url": "/producthunt-trending/static/js/main.a14c6c74.chunk.js"
   },
   {
     "revision": "0e046a12c6fce441219b",

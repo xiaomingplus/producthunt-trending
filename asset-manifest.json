@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/producthunt-trending/static/css/main.0848d298.chunk.css",
-    "main.js": "/producthunt-trending/static/js/main.dd1ab399.chunk.js",
-    "main.js.map": "/producthunt-trending/static/js/main.dd1ab399.chunk.js.map",
+    "main.js": "/producthunt-trending/static/js/main.a14c6c74.chunk.js",
+    "main.js.map": "/producthunt-trending/static/js/main.a14c6c74.chunk.js.map",
     "runtime~main.js": "/producthunt-trending/static/js/runtime~main.b2d2e7aa.js",
     "runtime~main.js.map": "/producthunt-trending/static/js/runtime~main.b2d2e7aa.js.map",
     "static/css/2.5d832d7a.chunk.css": "/producthunt-trending/static/css/2.5d832d7a.chunk.css",
-    "static/js/2.8f1a1e8c.chunk.js": "/producthunt-trending/static/js/2.8f1a1e8c.chunk.js",
-    "static/js/2.8f1a1e8c.chunk.js.map": "/producthunt-trending/static/js/2.8f1a1e8c.chunk.js.map",
+    "static/js/2.2201aba3.chunk.js": "/producthunt-trending/static/js/2.2201aba3.chunk.js",
+    "static/js/2.2201aba3.chunk.js.map": "/producthunt-trending/static/js/2.2201aba3.chunk.js.map",
     "index.html": "/producthunt-trending/index.html",
-    "precache-manifest.14d12349d4a7da0e24662e00b8fcf14f.js": "/producthunt-trending/precache-manifest.14d12349d4a7da0e24662e00b8fcf14f.js",
+    "precache-manifest.2eb7c9179e9e1159d83be25a6fd17efd.js": "/producthunt-trending/precache-manifest.2eb7c9179e9e1159d83be25a6fd17efd.js",
     "service-worker.js": "/producthunt-trending/service-worker.js",
     "static/css/2.5d832d7a.chunk.css.map": "/producthunt-trending/static/css/2.5d832d7a.chunk.css.map",
     "static/css/main.0848d298.chunk.css.map": "/producthunt-trending/static/css/main.0848d298.chunk.css.map"
