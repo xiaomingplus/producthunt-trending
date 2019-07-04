@@ -17,6 +17,7 @@ import {
   GithubCircle,
   KeyChange,
   TrendingUp,
+  AlphaPcircle
 } from "mdi-material-ui";
 import Loader from "react-loader-spinner";
 
@@ -138,13 +139,20 @@ class App extends React.Component {
                 <KeyChange />
               </IconButton>
               <IconButton
-                edge="end"
                 aria-label="Github"
                 onClick={this.handleGithub}
                 color="inherit"
               >
                 <GithubCircle />
               </IconButton>
+              <IconButton
+              edge="end"
+              aria-label="ProductHunt"
+              onClick={this.handleProducthunt}
+              color="inherit"
+            >
+              <AlphaPcircle />
+            </IconButton>
             </Toolbar>
           </AppBar>
           <Container maxWidth="md">
@@ -261,6 +269,10 @@ class App extends React.Component {
           <footer style={{paddingBottom:20,paddingTop:20}} className="center">
                 Thanks
                 <Link style={{marginLeft:4}} href="https://www.producthunt.com/" target="_blank" rel="noopener noreferrer"> ProductHunt</Link>
+                <span style={{marginLeft:8,marginRight:4,color:"#999999"}}>/</span>
+                <Link style={{marginLeft:4}} href="https://www.producthunt.com/posts/producthunt-trending" target="_blank" rel="noopener noreferrer"> Give me upvotes at Product Hunt</Link>
+                <span style={{marginLeft:8,marginRight:8,color:"#999999"}}>/</span>
+                <Link href="https://www.buymeacoffee.com/returnyang" target="_blank" rel="noopener noreferrer">Buy me a coffee</Link>
           </footer>
         </div>
       </MuiPickersUtilsProvider>
@@ -442,6 +454,12 @@ class App extends React.Component {
       "_blank"
     );
   };
+  handleProducthunt = () => {
+    window.open(
+        "https://www.producthunt.com/posts/producthunt-trending",
+        "_blank"
+      );
+  }
   handleReload = () => { 
     window.location.reload()
   }
