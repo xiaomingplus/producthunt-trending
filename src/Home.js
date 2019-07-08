@@ -128,7 +128,7 @@ class App extends React.Component {
                     underline="none"
                     style={{cursor: "pointer"}}
                   >
-                  ProductHunt Trending
+                  Product Hunt Trending
                   </Link>
               </Typography>
               <IconButton
