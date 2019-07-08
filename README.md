@@ -6,6 +6,8 @@ In productHunt trending,you can view products ordered by vote count with specifi
 
 Visit online: <https://xiaomingplus.github.io/producthunt-trending/>
 
+Give me upvotes at produncthunt: <https://www.producthunt.com/posts/producthunt-trending>
+
 ![screen](assets/screen.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
