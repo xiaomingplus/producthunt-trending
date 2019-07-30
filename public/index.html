@@ -37,39 +37,19 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <!-- Default Statcounter code for Product Hunt Trending
-https://xiaomingplus.github.io/producthunt-trending/ -->
-    <script type="text/javascript">
-      var sc_project = 12040553;
-      var sc_invisible = 1;
-      var sc_security = "2eec8bdc";
-      var sc_https = 1;
-      var sc_remove_link = 1;
-    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
-      type="text/javascript"
-      src="https://www.statcounter.com/counter/counter.js"
       async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-144907540-1"
     ></script>
-    <noscript
-      ><div class="statcounter">
-        <img
-          class="statcounter"
-          src="https://c.statcounter.com/12040553/0/2eec8bdc/1/"
-          alt="Web
-    Analytics"
-        /></div
-    ></noscript>
-    <!-- End of Statcounter Code -->
-    
-    <!-- Start of segment code-->
     <script>
-      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
-      analytics.load("KMQjc5toZU9YCw5CmxfDLB5G3djwxDIE");
-      analytics.page();
-      }}();
-    </script>
-        <!-- End of segment Code -->
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
+      gtag("config", "UA-144907540-1");
+    </script>
   </body>
 </html>
