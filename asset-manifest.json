@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/producthunt-trending/static/css/main.0848d298.chunk.css",
-    "main.js": "/producthunt-trending/static/js/main.f9e1f978.chunk.js",
-    "main.js.map": "/producthunt-trending/static/js/main.f9e1f978.chunk.js.map",
-    "runtime~main.js": "/producthunt-trending/static/js/runtime~main.b2d2e7aa.js",
-    "runtime~main.js.map": "/producthunt-trending/static/js/runtime~main.b2d2e7aa.js.map",
-    "static/css/2.5d832d7a.chunk.css": "/producthunt-trending/static/css/2.5d832d7a.chunk.css",
-    "static/js/2.bbdf810a.chunk.js": "/producthunt-trending/static/js/2.bbdf810a.chunk.js",
-    "static/js/2.bbdf810a.chunk.js.map": "/producthunt-trending/static/js/2.bbdf810a.chunk.js.map",
-    "index.html": "/producthunt-trending/index.html",
-    "precache-manifest.6824b07ff83fad81ed226dace3c66d7d.js": "/producthunt-trending/precache-manifest.6824b07ff83fad81ed226dace3c66d7d.js",
-    "service-worker.js": "/producthunt-trending/service-worker.js",
-    "static/css/2.5d832d7a.chunk.css.map": "/producthunt-trending/static/css/2.5d832d7a.chunk.css.map",
-    "static/css/main.0848d298.chunk.css.map": "/producthunt-trending/static/css/main.0848d298.chunk.css.map"
+    "main.css": "/static/css/main.0848d298.chunk.css",
+    "main.js": "/static/js/main.20881183.chunk.js",
+    "main.js.map": "/static/js/main.20881183.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.5d832d7a.chunk.css": "/static/css/2.5d832d7a.chunk.css",
+    "static/js/2.bbdf810a.chunk.js": "/static/js/2.bbdf810a.chunk.js",
+    "static/js/2.bbdf810a.chunk.js.map": "/static/js/2.bbdf810a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5f46d9f5cfe9d7f1d23748487f3ee2ae.js": "/precache-manifest.5f46d9f5cfe9d7f1d23748487f3ee2ae.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.5d832d7a.chunk.css.map": "/static/css/2.5d832d7a.chunk.css.map",
+    "static/css/main.0848d298.chunk.css.map": "/static/css/main.0848d298.chunk.css.map"
   }
 }
