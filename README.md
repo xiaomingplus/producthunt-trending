@@ -4,7 +4,7 @@ In Product Hunt Trending,you can view products ordered by vote count with specif
 
 <a href="https://www.producthunt.com/posts/product-hunt-trending?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-product-hunt-trending" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=160312&theme=light" alt="Product Hunt Trending - View trending products based on a number of factors | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
 
-Visit online: <https://xiaomingplus.github.io/producthunt-trending/>
+Visit online: <https://producthunt-trending.js.org/>
 
 Give me upvotes at produncthunt: <https://www.producthunt.com/posts/producthunt-trending>
 
